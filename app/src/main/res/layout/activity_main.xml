@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fonColor"
+    tools:context="com.example.weather_app.MainActivity">
+
+   <ImageView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:src= "@drawable/emoticon_excited"
+       android:layout_gravity="center_horizontal|center"
+       android:layout_margin="0px"
+       />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/refrbutton"
+       android:gravity="center_horizontal"
+       android:layout_gravity="center_horizontal|center"
+       android:textSize="30px"
+       android:padding="20px"
+       android:layout_marginTop="10dp"
+       android:text="@string/upd_button"
+       android:textColor="@color/colorWhite"
+       android:background="@color/colorRed"
+       />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="...."
+        android:textSize="100dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/temper"
+        android:textColor="#FFBF00"
+        />
+
+    </LinearLayout>
